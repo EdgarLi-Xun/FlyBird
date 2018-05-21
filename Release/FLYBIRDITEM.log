@@ -1,0 +1,146 @@
+﻿生成启动时间为 2016/8/23 9:49:45。
+     1>项目“C:\Users\Administrator.SKYUSER-63F4AQR\Desktop\FLYBIRDITEM\FLYBIRDITEM\FLYBIRDITEM.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\Administrator.SKYUSER-63F4AQR\Desktop\FLYBIRDITEM\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\FLYBIRDITEM.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\FLYBIRDITEM.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\FLYBIRDITEM.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CollEnv.cpp FLYBIRDITEM.cpp Fmenu.cpp Game.cpp Helpe.cpp Login.cpp PhyEnv.cpp Rank.cpp Register.cpp Start.cpp XCUtil.cpp
+         CollEnv.cpp
+     1>CollEnv.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+     1>CollEnv.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+     1>CollEnv.cpp(71): warning C4018: “<”: 有符号/无符号不匹配
+     1>CollEnv.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>CollEnv.cpp(84): warning C4018: “<”: 有符号/无符号不匹配
+     1>CollEnv.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+         FLYBIRDITEM.cpp
+     1>FLYBIRDITEM.cpp(13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         Fmenu.cpp
+         Game.cpp
+     1>Game.cpp(623): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Game.cpp(627): warning C4018: “<”: 有符号/无符号不匹配
+         Helpe.cpp
+         Login.cpp
+     1>Login.cpp(109): warning C4244: “参数”: 从“wchar_t”转换到“char”，可能丢失数据
+         PhyEnv.cpp
+     1>PhyEnv.cpp(21): warning C4244: “-=”: 从“const double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(22): warning C4244: “-=”: 从“const double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(25): warning C4244: “+=”: 从“const double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(26): warning C4244: “+=”: 从“const double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(29): warning C4244: “-=”: 从“const double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(30): warning C4244: “-=”: 从“const double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(33): warning C4244: “+=”: 从“const double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(34): warning C4244: “+=”: 从“const double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(45): warning C4244: “-=”: 从“double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(46): warning C4244: “-=”: 从“double”转换到“LONG”，可能丢失数据
+     1>PhyEnv.cpp(208): warning C4172: 返回局部变量或临时变量的地址
+         Rank.cpp
+     1>Rank.cpp(88): warning C4018: “<”: 有符号/无符号不匹配
+     1>Rank.cpp(89): warning C4018: “<”: 有符号/无符号不匹配
+     1>Rank.cpp(98): warning C4018: “<”: 有符号/无符号不匹配
+     1>Rank.cpp(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>Rank.cpp(136): warning C4018: “<”: 有符号/无符号不匹配
+         Register.cpp
+     1>Register.cpp(31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Register.cpp(32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Register.cpp(33): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Register.cpp(96): warning C4244: “参数”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>Register.cpp(137): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>Register.cpp(141): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+         Start.cpp
+         XCUtil.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\FLYBIRDITEM.res" FLYBIRDITEM.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator.SKYUSER-63F4AQR\Desktop\FLYBIRDITEM\Release\FLYBIRDITEM.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\FLYBIRDITEM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator.SKYUSER-63F4AQR\Desktop\FLYBIRDITEM\Release\FLYBIRDITEM.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator.SKYUSER-63F4AQR\Desktop\FLYBIRDITEM\Release\FLYBIRDITEM.lib" /MACHINE:X86 Release\FLYBIRDITEM.res
+         Release\CollEnv.obj
+         Release\FLYBIRDITEM.obj
+         Release\Fmenu.obj
+         Release\Game.obj
+         Release\Helpe.obj
+         Release\Login.obj
+         Release\PhyEnv.obj
+         Release\Rank.obj
+         Release\Register.obj
+         Release\Start.obj
+         Release\stdafx.obj
+         Release\XCUtil.obj
+     1>CollEnv.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_GetRect(void *,struct tagRECT *)" (?XEle_GetRect@@YGXPAXPAUtagRECT@@@Z)
+     1>FLYBIRDITEM.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XInitXCGUI(wchar_t *)" (?XInitXCGUI@@YGHPA_W@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XWnd_CreateWindow(int,int,int,int,wchar_t *,struct HWND__ *,int)" (?XWnd_CreateWindow@@YGPAXHHHHPA_WPAUHWND__@@H@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XFont_Create2(wchar_t *,int,int,int,int,int)" (?XFont_Create2@@YGPAXPA_WHHHHH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XBtn_Create(int,int,int,int,wchar_t *,void *)" (?XBtn_Create@@YGPAXHHHHPA_WPAX@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_SetFont(void *,void *)" (?XEle_SetFont@@YGXPAX0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XImage_LoadFile(wchar_t *,int)" (?XImage_LoadFile@@YGPAXPA_WH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XBtn_SetImageLeave(void *,void *)" (?XBtn_SetImageLeave@@YGXPAX0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XBtn_SetImageStay(void *,void *)" (?XBtn_SetImageStay@@YGXPAX0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XBtn_SetImageDown(void *,void *)" (?XBtn_SetImageDown@@YGXPAX0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XBtn_EnableCursorHand(void *,int)" (?XBtn_EnableCursorHand@@YGXPAXH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_SetBkTransparent(void *,int)" (?XEle_SetBkTransparent@@YGXPAXH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XMenu_SetUserUpdateUIEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XMenu_SetUserUpdateUIEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XMenu_SetUserDrawBGEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XMenu_SetUserDrawBGEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XMenu_SetUserDrawItemEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XMenu_SetUserDrawItemEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XListView_SetUserDrawGroupEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XListView_SetUserDrawGroupEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XListView_SetUserDrawItemEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XListView_SetUserDrawItemEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XListBox_SetUserDrawItemEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XListBox_SetUserDrawItemEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XTree_SetUserDrawItemEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XTree_SetUserDrawItemEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XList_SetUserDrawItemHeaderEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XList_SetUserDrawItemHeaderEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XList_SetUserDrawItemEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XList_SetUserDrawItemEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XSView_SetDrawScrollViewEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XSView_SetDrawScrollViewEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_RegisterMsgProcEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XWnd_RegisterMsgProcEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_RegisterNCMessageEx(void *,int,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XWnd_RegisterNCMessageEx@@YGXPAXHP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_RegisterMessageEx(void *,int,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XWnd_RegisterMessageEx@@YGXPAXHP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_RegisterEventProcEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XEle_RegisterEventProcEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_RegisterMsgProcEx(void *,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XEle_RegisterMsgProcEx@@YGXPAXP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_RegisterMessageEx(void *,int,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XEle_RegisterMessageEx@@YGXPAXHP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_RegisterEventEx(void *,int,int (__stdcall*)(struct eventOrMsg_ *,enum xcgui_fun_type),void *)" (?XEle_RegisterEventEx@@YGXPAXHP6GHPAUeventOrMsg_@@W4xcgui_fun_type@@@Z0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XPic_Create(int,int,int,int,void *)" (?XPic_Create@@YGPAXHHHHPAX@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XImage_LoadFileRect(wchar_t *,int,int,int,int)" (?XImage_LoadFileRect@@YGPAXPA_WHHHH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XPic_SetImage(void *,void *)" (?XPic_SetImage@@YGXPAX0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "unsigned long __stdcall XWnd_SetIcon2(void *,wchar_t *,int)" (?XWnd_SetIcon2@@YGKPAXPA_WH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_EnableDragWindow(void *,int)" (?XWnd_EnableDragWindow@@YGXPAXH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_EnableMinButton(void *,int,int)" (?XWnd_EnableMinButton@@YGXPAXHH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_EnableMaxButton(void *,int,int)" (?XWnd_EnableMaxButton@@YGXPAXHH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_SetBorderSize(void *,int,int,int,int)" (?XWnd_SetBorderSize@@YGXPAXHHHH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_EnableCloseButton(void *,int,int)" (?XWnd_EnableCloseButton@@YGXPAXHH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_SetImageNC(void *,void *)" (?XWnd_SetImageNC@@YGXPAX0@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XWnd_ShowWindow(void *,int)" (?XWnd_ShowWindow@@YGHPAXH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "struct HWND__ * __stdcall XEle_GetHWnd(void *)" (?XEle_GetHWnd@@YGPAUHWND__@@PAX@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_CloseWindow(void *)" (?XWnd_CloseWindow@@YGXPAX@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XMessageBox(void *,wchar_t *,wchar_t *,int)" (?XMessageBox@@YGHPAXPA_W1H@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XWnd_RedrawWnd(void *,int)" (?XWnd_RedrawWnd@@YGXPAXH@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XWnd_KillTimer(void *,unsigned int)" (?XWnd_KillTimer@@YGHPAXI@Z)
+     1>Fmenu.obj : error LNK2001: 无法解析的外部符号 "unsigned int __stdcall XWnd_SetTimer(void *,unsigned int,unsigned int)" (?XWnd_SetTimer@@YGIPAXII@Z)
+     1>Game.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XModalWnd_CreateWindow(int,int,wchar_t *,struct HWND__ *,int)" (?XModalWnd_CreateWindow@@YGPAXHHPA_WPAUHWND__@@H@Z)
+     1>Game.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XImage_EnableTranColor(void *,int)" (?XImage_EnableTranColor@@YGXPAXH@Z)
+     1>Game.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XStatic_Create(int,int,int,int,wchar_t *,void *)" (?XStatic_Create@@YGPAXHHHHPA_WPAX@Z)
+     1>Game.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_SetTextColor(void *,unsigned long)" (?XEle_SetTextColor@@YGXPAXK@Z)
+     1>Game.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XModalWnd_DoModal(void *)" (?XModalWnd_DoModal@@YGHPAX@Z)
+     1>Game.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XModalWnd_DoOk(void *)" (?XModalWnd_DoOk@@YGXPAX@Z)
+     1>Helpe.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XRichEdit_Create(int,int,int,int,void *)" (?XRichEdit_Create@@YGPAXHHHHPAX@Z)
+     1>Helpe.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XSView_GetView(void *)" (?XSView_GetView@@YGPAXPAX@Z)
+     1>Helpe.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XRichEdit_SetText(void *,wchar_t *)" (?XRichEdit_SetText@@YGXPAXPA_W@Z)
+     1>Helpe.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_EnableBorder(void *,int)" (?XEle_EnableBorder@@YGXPAXH@Z)
+     1>Helpe.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XRichEdit_SetReadOnly(void *,int)" (?XRichEdit_SetReadOnly@@YGXPAXH@Z)
+     1>Login.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XStatic_AdjustSize(void *)" (?XStatic_AdjustSize@@YGXPAX@Z)
+     1>Login.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XEdit_Create(int,int,int,int,void *)" (?XEdit_Create@@YGPAXHHHHPAX@Z)
+     1>Login.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEdit_EnablePassBox(void *,int)" (?XEdit_EnablePassBox@@YGXPAXH@Z)
+     1>Login.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEdit_GetText(void *,wchar_t *,int)" (?XEdit_GetText@@YGXPAXPA_WH@Z)
+     1>Login.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XEdit_GetTextLength(void *)" (?XEdit_GetTextLength@@YGHPAX@Z)
+     1>Login.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XStatic_SetText(void *,wchar_t *)" (?XStatic_SetText@@YGXPAXPA_W@Z)
+     1>Login.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_RedrawEle(void *,int)" (?XEle_RedrawEle@@YGXPAXH@Z)
+     1>Login.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEdit_Menu_DeleteAll(void *)" (?XEdit_Menu_DeleteAll@@YGXPAX@Z)
+     1>PhyEnv.obj : error LNK2001: 无法解析的外部符号 "void __stdcall XEle_SetRect(void *,struct tagRECT *,int)" (?XEle_SetRect@@YGXPAXPAUtagRECT@@H@Z)
+     1>Rank.obj : error LNK2001: 无法解析的外部符号 "void * __stdcall XList_Create(int,int,int,int,void *)" (?XList_Create@@YGPAXHHHHPAX@Z)
+     1>Rank.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XList_AddColumn(void *,int,wchar_t *,int)" (?XList_AddColumn@@YGHPAXHPA_WH@Z)
+     1>Rank.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XList_AddItem(void *,wchar_t *,int)" (?XList_AddItem@@YGHPAXPA_WH@Z)
+     1>Rank.obj : error LNK2001: 无法解析的外部符号 "int __stdcall XList_SetItemText(void *,int,int,wchar_t *,int)" (?XList_SetItemText@@YGHPAXHHPA_WH@Z)
+     1>C:\Users\Administrator.SKYUSER-63F4AQR\Desktop\FLYBIRDITEM\Release\FLYBIRDITEM.exe : fatal error LNK1120: 70 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Administrator.SKYUSER-63F4AQR\Desktop\FLYBIRDITEM\FLYBIRDITEM\FLYBIRDITEM.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.15
